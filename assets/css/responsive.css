@@ -1,0 +1,86 @@
+:root {
+  --primary: #0a9bd4;
+}
+
+/* tablet queries */
+@media (max-width: 768px) {
+  html {
+    font-size: 88%;
+  }
+
+  .navbar-list {
+    position: absolute;
+    top: 100%;
+    height: 100vh;
+    width: 250px;
+    right: -250px;
+    background: #000840;
+    transition: 250ms linear;
+  }
+
+  #times {
+    display: inline-block;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 1.5rem 1.5rem 0;
+  }
+
+  .navbar-list a {
+    display: block;
+    margin: 3rem 3rem;
+  }
+
+  .navbar-icon {
+    display: inline-block;
+  }
+
+  #hamburger {
+    font-size: 1.4rem;
+    cursor: pointer;
+  }
+
+  /* hero */
+  .content-home h3 {
+    width: 90%;
+  }
+
+  /* places start */
+  .place-row {
+    width: 100%;
+  }
+
+  .overlay-second h3 {
+    font-size: 1.3rem;
+  }
+
+  .overlay-second h4 {
+    font-size: 1rem;
+  }
+  /* contact buys start */
+  .contact-content {
+    padding: 2rem;
+    background: #000850;
+  }
+
+  .contact-content h3 {
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+  }
+}
+
+/* phone queries */
+@media (max-width: 576px) {
+  html {
+    font-size: 78%;
+  }
+
+  /* about start */
+  .about-row {
+    grid-template-columns: 1fr;
+  }
+
+  /* footer start */
+  .footer-content {
+    grid-template-columns: 1fr;
+  }
+}
