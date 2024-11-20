@@ -1,1 +1,3 @@
-membuat website sederhana HTML CSS JS project 3
+## Membuat Website Sederhana | HTML CSS JS | Projek 3
+
+demo : https://hiigootgar.github.io/beautinesia
